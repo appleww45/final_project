@@ -1,0 +1,304 @@
+header{
+    text-align: center; 
+}
+
+#main{
+    padding-top: 20px;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.text{
+    font-family: a장미다방;
+    letter-spacing: 0.3em;
+    text-shadow: 1px 2px 0px #1a91a0;
+}
+
+.bannner {
+    position:relative;
+    display:inline-block;
+}
+
+.bannner img {
+    max-width:100%;
+}
+
+.bannner span.text{
+    position:absolute;
+    top:25%;
+    left:0;
+    transform:translateY(-50%);
+    display:none;
+    width:100%;
+    font-size:70px;
+    color:#fff;
+    font-weight:900;
+    text-align:center;}
+
+.bannner::before, .bannner::after{
+    content:'';
+    position:absolute;
+    top: 0%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    transition:all .8s;
+    -webkit-transition:all .8s;
+}
+
+.bannner::before {
+    width:90%;
+    height:25%;
+    border-top:4px solid #fff;
+    border-bottom:4px solid #fff;
+    width:0;
+} 
+
+.bannner::after {
+    width:90%;
+    height:75%;
+    border-left:4px solid #fff;
+    border-right:4px solid #fff;
+    height:0;
+}
+
+.bannner:hover span.text {
+    display:block;
+}
+
+.bannner:hover::before {
+    width:calc(50% + 4px);
+} 
+
+.bannner:hover::after {
+    height:calc(50% + 4px);
+} 
+
+#menu nav ul{
+    border-bottom: 2px solid;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #2d9caa;
+    list-style-type: none;
+    width: 70%;
+     text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+     overflow:hidden;
+    font-family: a장미다방;
+    letter-spacing: 0.1em;
+}
+
+#menu nav ul li{
+    display: inline;
+    margin: 50px;
+     text-align: center; 
+}
+
+#menu nav li:last-child{
+    border-right: 0;
+}
+
+#menu nav a:hover{
+    background: #2d9caa;
+    color:#fff;
+    padding: 5px;
+}
+
+#menu .current{
+    background: #2d9caa;
+    color:#fff;
+    padding: 5px;
+}
+
+
+#menu nav ul li a{
+    color: #2d9caa;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+center{
+    padding-top: 20px;
+     margin-right: auto;
+    margin-left: auto;
+}
+
+
+.title{
+    text-align: right;
+    margin-top: 100px;
+    font-family: a장미다방;
+    font-size: 60px;
+    border-bottom: 2px solid;
+    width: 600px;
+    float: right;
+    color: #1a91a0;
+    margin-bottom: 5px;
+    letter-spacing: 0.3em;
+    margin-right: 28px;
+}
+    
+p{
+    margin-right: 28px; 
+}
+
+dt{
+    display: block;
+    text-align: right;
+    margin-top: 100px
+    font-size: 30px;
+    width: 500px;
+    padding: 5px;
+    float: right;
+    color: #1a91a0;
+    letter-spacing: 0.3em;    
+}
+
+ol{
+    text-align: left;
+  float: right;
+    color: black;
+     margin-right: 25px;
+}
+
+dl{
+    display: block;
+  text-align: right;
+   width: 60%;
+    margin-left: auto;
+}
+
+a{
+  text-decoration: none;    
+ color: black;    
+}
+
+.story1{
+    height: 205px;
+    overflow: auto;
+    text-align: left;
+    line-height: 30px;
+    border: 2px solid #fc1a1a;
+    padding: 15px;
+    
+}
+
+mark{
+    background-color: #2d9caa;
+    color: white;
+    padding: 5px;
+}
+
+* {
+    margin:0;padding:0;
+}
+
+#menu nav ul{
+    border-bottom: 2px solid;
+    font-size: x-large;
+    border-top: 2px solid;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #2d9caa;
+    list-style-type: none;
+    width: 70%;
+     text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+     overflow:hidden;
+    font-family: a장미다방;
+    letter-spacing: 0.1em;
+}
+  
+.sidebar{
+    position: fixed;
+}
+
+.main-container{
+    overflow: hidden;
+    padding 0 0 40px 0;
+    width:73%;  
+    margin: 0 auto;   
+}
+
+.sidebar{
+    float:left;
+    margin:0 0 0 20px;
+    padding: 30px 0 30px 0;
+    width: 300px;
+}
+
+.section-title{
+    font-size: 25px;
+    text-align: left;
+     padding-left: 10px;
+}
+
+.sidebar li{
+    display: block;
+    width:70%;
+    padding:20px 0px;
+    text-align: left;
+    border-bottom: 1px solid;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.sidebar li:last-child{
+    border-bottom: 0px solid;
+}
+
+.sidebar li a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.sidebar li .current{
+    color:darkslateblue;
+}
+
+#illust{
+    display: block;
+    width:50%;
+    float:right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 28px;
+}
+
+#illust2{
+    display: block;
+    width: 700px;
+    float:right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 28px;
+}
+
+
+footer{
+    border-top: 2px solid;
+    font-size: large;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #1a91a0;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@font-face{
+    font-family: a장미다방;
+    src:url('a장미다방.ttf');
+    font-weight: normal; 
+}
